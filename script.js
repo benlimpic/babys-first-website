@@ -10,12 +10,6 @@ const p1 = document.createElement("p");
 p1.textContent = "At least I think they do...";
 document.querySelector("body").appendChild(p1);
 
-const poke = document.querySelector("body").getElementById("bulldog");
-poke.addEventListener("click", function() {
-    alert("I was CLICKED!");
-});
-
-
 
 
 
