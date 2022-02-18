@@ -1,3 +1,4 @@
+
 const h2 = document.createElement("h2");
 h2.textContent = "These are some Musical Dogs!";
 document.querySelector("body").appendChild(h2);
@@ -9,7 +10,4 @@ document.querySelector("body").appendChild(h3);
 const p1 = document.createElement("p");
 p1.textContent = "At least I think they do...";
 document.querySelector("body").appendChild(p1);
-
-
-
 
