@@ -1,117 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!--That meta tag basically specifies which character set a website is written with.-->
-    <meta charset="UTF-8" />
-
-    <!--Display page width depending on screen size (responsive).-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Baby's First Website</title>
-    <link rel="stylesheet" href="style.css" />
-
-    <!--Adds a custom favicon to the browser tab.-->
-    <link rel="shortcut icon" href="images/flat,128x128,075,t.jpeg" type="image/x-icon" />
-  </head>
-
+    <head>
+        <!--CHARACTER SET-->
+        <meta charset="UTF-8" /> 
+        <!--DISPLAY SCALE-->
+        <meta name="viewport" content="width=device-width, initial-scale=1,0" />
+        <title>Baby's First Website</title>
+        <!--LINK TO CSS-->
+        <link rel="stylesheet" href="style.css" />
+        <!--FAVICON-->
+        <link rel="shortcut icon" href="images/flat,128x128,075,t.jpeg" type="image/x-icon" />
+    </head>
 
     <body>
-        <!--The one container to hold it all-->
         <div class="container">
-
-            <!--Nav links from Javascript-->   
             <div class="row">
                 <div class="column">
-                    <img 
-                    class="image"
-                    id="benLogo" 
-                    src="images/Ben Logo.jpeg" 
-                    alt="Ben Limpic Logo"
-                    >
+                    <img
+                        class="round"
+                        id="logo"
+                        src="images/LOGO.png"
+                        alt="Ben Limpic Logo"
+                    />
                 </div>
                 <div class="column">
-                    <h1>Ben Limpic</h1>
-                    <h3>Liker of things, learner of stuff!</h3>
-                </div>
+                    <h1 class="name">Ben G Limpic</h1>
+                    <h2 class="topIntro">Liker of Things, Learner of Stuff</h2>
+                </div>  
             </div>
 
-            <!--Love, Dogs & Music-->
+            <hr />
+            
             <div class="row">
                 <div class="column">
-                    <div class="row">
-                        <img 
-                        class="image"
-                        id="lovePhoto" 
-                        src="images/family-photo.png" 
-                        alt="Ben and Issie Limpic"
-                        >
-                        <h3>Love</h3>
-                    </div>
-                    <p><b>Stuff about my love!</b></p>
-                    <p><i>Stuff about my love!</i></p>
-                    <p>Stuff about my love!</p>
+                    <h3>AUDIOBOOKS</h3>
+                    <p>
+                        I love audiobooks! Ever since I was a boy 
+                        listening to my mother read to me, I have 
+                        loved to listen to books. The audio medium 
+                        allows one to consume vast amounts of 
+                        information and entertainment while leaving 
+                        your hands and eyes free to accomplish tasks. 
+                        So often, I rely on great storytellers to 
+                        enrich my daily work. Some of my favorite 
+                        things to do while listening are: creating 
+                        art, playing games, driving a long distance, 
+                        and napping with my dogs.  
+                    </p>
+                    <p>
+                        I typically enjoy books that fall into three 
+                        categories.
+                    </p>
+                    <ul>
+                        <li>Biography</li>
+                        <li>Classic</li>
+                        <li>Fantasy Series</li>
+                    </ul>
                 </div>
-            </div>
-            
-            
 
-            <div class="row">
-                <div class="column2">
-                    <h3>Daisy Mae</h3>
-                    <div class="row">
-                        <img 
-                        class="imageDog"
-                        id="daisyPhoto" 
-                        src="images/bulldog1.gif" 
-                        alt="Daisy Mae Bulldog"
-                        >
-                    </div>
-                    <p><b>Stuff about my Dogs!</b></p>
-                    <p>Stuff about my Dogs!</p>
-                </div>
-            
-                <div class="column2">
-                    <h3>Bob</h3>
-                    <div class="row">
-                        <img 
-                        class="imageDog"
-                        id="bobPhoto" 
-                        src="images/boston1.gif" 
-                        alt="Bob Boston Terrier"
-                        >
-                    </div>
-                    <p><b>Stuff about my Dogs!</b></p>
-                    <p>Stuff about my Dogs!</p>
-                </div>
-            </div>
-
-            <div class="row" id="music">
                 <div class="column">
-                    <div class="row">
-                        <iframe 
-                            width="560" 
-                            height="315" 
+                    <h3>MUSIC</h3>
+                    <iframe 
+                            width="490" 
+                            height="275"
                             src="https://www.youtube.com/embed/IIAWAKE_GHo" 
                             title="YouTube video player" 
                             frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                             allowfullscreen>
                         </iframe>
-                    </div> 
-                        <h3>Music</h3>
-                    
-                    <p><b>Stuff about my Music!</b></p>
-                    <p><i>Stuff about my Music!</i></p>
-                    <p>Stuff about my Music!</p>
                 </div>
             </div>
 
-            <!--Footer links from JavaScript-->
-            <div class="column">
-                <div class="row">
-                    
+            <hr />
+
+            <div class="row">
+                <div class="column">
+                    <h3>SHOWS</h3>
+                    <p>
+                        Here is a list of my favorite T.V. shows. I often 
+                        spend my evenings with my wife watching our favorite 
+                        shows and hanging out with our Dogs!
+                    </p>
+
+                    <ul>
+                        <li>Ted Lasso</li>
+                        <li>Silicon Valley</li>
+                        <li>Peaky Blinders</li>
+                        <li>Taboo</li>
+                        <li>See</li>
+                        <li>Game of Thrones</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>GAMES</h3>
+                    <p>
+                        Here is a list of my favorite video game titles. My 
+                        wife and I love a little matrimonial competition. We 
+                        love to trash-talk and sometimes cooperate!
+                    </p>
+
+                    <ul>
+                        <li>Mortal Combat</li>
+                        <li>Super Smash Bros.</li>
+                        <li>Mario Cart</li>
+                        <li>Clash Royale</li>
+                        <li>Diablo 2</li>
+                        <li>Call of Duty</li>
+                    </ul>
                 </div>
             </div>
-        </div> 
+
+            <hr />
+
+            <div class="row">
+
+                <div class="column">
+                    <h3>MY LOVE</h3>
+                    <img
+                        id="love"
+                        src="images/family-photo.png"
+                        alt="Ben and Issie"
+                    />
+                </div>
+                <div class="column">
+                    <h3>FUR BABIES</h3>
+                    <div class="row">
+                        <div class="column">
+                            <h4>Bob</h4>
+                            <img
+                                id="dogs"
+                                src="images/boston1.gif"
+                                alt="Bob the Boston"
+                            />
+                        </div>
+                        <div class="column">
+                            <h4>Daisy</h4>
+                            <img
+                                id="dogs"
+                                src="images/bulldog1.gif"
+                                alt="Daisy the Bulldog"
+                            />
+                        </div>
+
+                    </div>
+               
+                </div>
+            </div>
+
+
+        </div>
     </body>
 </html>
 
