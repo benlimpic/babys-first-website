@@ -1,6 +1,5 @@
 
 // NAV BAR //
-
 const newNavbar = document.createElement("nav");
 const githLink = document.createElement("a");
 const spotLink = document.createElement("a");

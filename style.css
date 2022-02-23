@@ -51,7 +51,6 @@ body {
 }
 
 /* images */
-
 .round {
     margin-top: 50px;
     margin-left: 25px;
@@ -91,7 +90,6 @@ body {
 }
 
 /* ELEMENTS */
-
 h1:hover, h2:hover, h3:hover {
     color: aquamarine;
 }
@@ -108,9 +106,6 @@ li:hover {
 }
 
 /* NAVBAR & FOOTER */
-
-
-
 .navbar {
     position: relative;
     top: 0;
