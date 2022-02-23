@@ -1,26 +1,30 @@
 
 // NAV BAR //
 
-const navbar = document.createElement("nav");
-const about = document.createElement("a");
-const github = document.createElement("a");
-const linkedIn = document.createElement("a");
-const spotify = document.createElement("a");
-navbar.classname = "navbar";
-about.href = "./index.html";
-about.innerText = "About";
-github.href = "https://github.com/benlimpic";
-github.innerText = "Github";
-linkedIn.href = "https://www.linkedin.com/in/benlimpic/";
-linkedIn.innerText = "LinkedIn";
-spotify.href = "https://open.spotify.com/artist/71faWKaZNj32iQoXE2j3jn?si=1RNNOJ-nQIS_zyPR5vem0A";
-spotify.innerText = "Spotify";
+const newNavbar = document.createElement("nav");
+const githLink = document.createElement("a");
+const spotLink = document.createElement("a");
+const linkLink = document.createElement("a");
+const homeLink = document.createElement("a");
 
-navbar.append(about)
-navbar.append(github)
-navbar.append(linkedIn)
-navbar.append(spotify)
-document.body.querySelector(".container").prepend(navbar)
+newNavbar.className = "navbar";
+githLink.href = "https://github.com/benlimpic";
+githLink.innerText = "Github";
+githLink.target = "_blank";
+spotLink.href = "https://open.spotify.com/artist/71faWKaZNj32iQoXE2j3jn?si=1RNNOJ-nQIS_zyPR5vem0A";
+spotLink.innerText = "Spotify";
+spotLink.target = "_blank";
+linkLink.href = "https://www.linkedin.com/in/benlimpic/";
+linkLink.innerText = "LinkedIn";
+linkLink.target = "_blank";
+homeLink.href = "./index.html";
+homeLink.innerText = "Home";
+
+newNavbar.append(homeLink)
+newNavbar.append(githLink)
+newNavbar.append(spotLink)
+newNavbar.append(linkLink)
+document.body.querySelector(".container").prepend(newNavbar)
 
 //FOOTER//
 const thisYear = new Date().getFullYear();

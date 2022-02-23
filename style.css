@@ -18,10 +18,9 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.322);
-    padding-left: 50px;
-    padding-top: 30px;
-    padding-right: 50px;
-    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+
     
 }
 
@@ -34,25 +33,31 @@ body {
     text-align: justify;
 }
 
+
+/* ELEMENT STRUCTURE */
 .column:first-child {
     margin-left: 0;
 }
 
 .name {
     text-align: right;
+    margin-top: 150px;
+    margin-bottom: 25px;
 }
 
 .topIntro {
     text-align: right;
-    padding-bottom: 80px;
+    margin-bottom: 25px;
 }
 
-h1:hover, h2:hover, h3:hover {
-    color: aquamarine;
-}
 /* images */
 
 .round {
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+#logo {
     border-radius: 50%;
 }
 
@@ -82,7 +87,13 @@ h1:hover, h2:hover, h3:hover {
     transform: scaleX(-1);
 }
 #musicVideo {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+/* ELEMENTS */
+
+h1:hover, h2:hover, h3:hover {
+    color: aquamarine;
 }
 
 hr {
@@ -95,3 +106,43 @@ hr {
 li:hover {
     color: aquamarine;
 }
+
+/* NAVBAR & FOOTER */
+
+
+
+.navbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width:auto;
+    margin-top: 10px;;
+}
+
+.navbar a {
+    color: #000000;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size: x-large;
+}
+
+.navbar a:hover {
+    color: aquamarine;
+}
+
+.footer {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #000000;
+    font-size: small;
+    text-decoration: none;
+    
+}
+
+.footer a:hover {
+    color: aquamarine;
+}
+
